@@ -15,9 +15,9 @@ detector = dlib.get_frontal_face_detector()
 
 #Check 68 Facial Landmarks blueprint
 # shape_predictor -> return <class 'dlib.shape_predictor'>
-# voir doc, mais object shape_predictor a pour __call__(self, image_rect)
-# image : image où le visage à détecter est présent
-# rect : zone rectangulaire de détection
+# see documentation (object shape_predictor : __call__(self, image_rect))
+# image : image in which to detect the face
+# rect : rectangular detection zone
 landmark_predict = dlib.shape_predictor('./Models/shape_predictor_68_face_landmarks.dat') 
 
 # Eye landmarks 
