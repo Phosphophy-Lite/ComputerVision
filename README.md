@@ -11,8 +11,8 @@
 # Execution
 There are 3 files you can execute to test the models :
 - `image_cv2_version` : will test the OpenCV model on a still image put in `./Img/`. Make sure to give the correct filename for the image you want to test : (Line 53) : `filename = "ai_generated_face.jpg"` (default image)
-- `webcam_cv2_version` : will test the OpenCV model on your webcam (make your webcam allows access to other apps). Try to blink for it to play a beeping sound ! Blue box : face ; red box : nose ; green box : eye
-- `webcam_dlib_version` : will test the dlib models on your webcam (make your webcam allows access to other apps). Try to blink for it to play a beeping sound !
+- `webcam_cv2_version` : will test the OpenCV model on your webcam (make sure your webcam allows access to other apps). Try to blink for it to play a beeping sound ! Blue box : face ; red box : nose ; green box : eye
+- `webcam_dlib_version` : will test the dlib models on your webcam (make sure your webcam allows access to other apps). Try to blink for it to play a beeping sound !
 
 # Documentation
 Useful documentation to understand the code and the models :
