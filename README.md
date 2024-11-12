@@ -14,3 +14,9 @@ There are 3 files you can execute to test the models :
 - `webcam_cv2_version` : will test the OpenCV model on your webcam (make your webcam allows access to other apps). Try to blink for it to play a beeping sound ! Blue box : face ; red box : nose ; green box : eye
 - `webcam_dlib_version` : will test the dlib models on your webcam (make your webcam allows access to other apps). Try to blink for it to play a beeping sound !
 
+# Documentation
+Useful documentation to understand the code and the models :
+- <a href="https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html">OpenCV Cascade Classifier tutorial</a>
+- <a href="https://www.sciencedirect.com/science/article/pii/S2667241322000039">Eye Aspect Ration (EAR) calculation</a>
+- <a href="https://www.researchgate.net/profile/Fabrizio-Falchi/publication/338048224/figure/fig1/AS:837860722741255@1576772971540/68-facial-landmarks.jpg">68 facial landmarks (for dlib)</a>
+
