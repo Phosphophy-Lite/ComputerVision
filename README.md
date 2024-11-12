@@ -17,6 +17,6 @@ There are 3 files you can execute to test the models :
 # Documentation
 Useful documentation to understand the code and the models :
 - <a href="https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html">OpenCV Cascade Classifier tutorial</a>
-- <a href="https://www.sciencedirect.com/science/article/pii/S2667241322000039">Eye Aspect Ration (EAR) calculation</a>
+- <a href="https://www.sciencedirect.com/science/article/pii/S2667241322000039">Eye Aspect Ratio (EAR) calculation</a>
 - <a href="https://www.researchgate.net/profile/Fabrizio-Falchi/publication/338048224/figure/fig1/AS:837860722741255@1576772971540/68-facial-landmarks.jpg">68 facial landmarks (for dlib)</a>
 
