@@ -4,13 +4,13 @@ import pygame
 
 
 pygame.mixer.init()
-sound = pygame.mixer.Sound("bip.ogg")
+sound = pygame.mixer.Sound("../assets/bip.ogg")
 
 #Load the pre-trained classifiers XML files
 # refer to doc : https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
-face_cascade = cv2.CascadeClassifier('./Models/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('./Models/haarcascade_eye.xml')
-nose_cascade = cv2.CascadeClassifier('./Models/haarcascade_mcs_nose.xml')
+face_cascade = cv2.CascadeClassifier('../Models/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('../Models/haarcascade_eye.xml')
+nose_cascade = cv2.CascadeClassifier('../Models/haarcascade_mcs_nose.xml')
 
 #Capture the feed of the webcam. 
 # 0 : default value of webcam. 

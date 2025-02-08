@@ -3,9 +3,9 @@ import cv2
 
 #Load the pre-trained classifiers XML files
 # refer to doc : https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
-face_cascade = cv2.CascadeClassifier('./Models/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('./Models/haarcascade_eye.xml')
-nose_cascade = cv2.CascadeClassifier('./Models/haarcascade_mcs_nose.xml')
+face_cascade = cv2.CascadeClassifier('../Models/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('../Models/haarcascade_eye.xml')
+nose_cascade = cv2.CascadeClassifier('../Models/haarcascade_mcs_nose.xml')
 
 def detect_face(input):
     #conversion of the image input to a grayscale (because detection works better this way)
@@ -51,7 +51,7 @@ def detect_face(input):
 
 #Load the input image/video in grayscale
 filename = "ai_generated_face.jpg" #change with the filename you want to test the model with
-img = cv2.imread('./Img/' + filename)
+img = cv2.imread('../Img/' + filename)
 img = detect_face(img)
 cv2.imshow('img',img)
 

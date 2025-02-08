@@ -18,7 +18,7 @@ detector = dlib.get_frontal_face_detector()
 # see documentation (object shape_predictor : __call__(self, image_rect))
 # image : image in which to detect the face
 # rect : rectangular detection zone
-landmark_predict = dlib.shape_predictor('./Models/shape_predictor_68_face_landmarks.dat') 
+landmark_predict = dlib.shape_predictor('../Models/shape_predictor_68_face_landmarks.dat') 
 
 # Eye landmarks 
 (L_start, L_end) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"] 
@@ -26,7 +26,7 @@ landmark_predict = dlib.shape_predictor('./Models/shape_predictor_68_face_landma
 
 #Init sound mixer
 pygame.mixer.init()
-sound = pygame.mixer.Sound("bip.ogg")
+sound = pygame.mixer.Sound("../assets/bip.ogg")
 
 #Capture the feed of the webcam. 
 # 0 : default value of webcam. 
